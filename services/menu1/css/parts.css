@@ -1,0 +1,171 @@
+@charset "utf-8";
+/*===============
+contain : such as strong text, margin set, basic list & font style and so on =====*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size:14px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.segoe{
+	font-family:Segoe UI;
+}
+
+h1{
+	font-size:72px;
+}
+h2{
+	font-size:48px;
+	color:#754c24;
+	border-bottom:1px solid #000;
+}
+h3{
+	font-size:24px;
+	color:#fff;
+}
+h4{
+	font-size:22px;
+	color:#754c24;
+}
+
+.mt25 {
+	margin-top: 25px;
+}
+
+h4 span{
+	font-size:30px;
+}
+sup{
+    vertical-align: super;
+    font-size:small;
+}
+.fs18{
+	font-size:14px;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+/*float*/
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+/*margin*/
+.mar35{
+	margin:35px auto;
+}
+.marTop3{
+	margin-top:3px;
+}
+.marTop20{
+	margin-top:20px;
+}
+.marTop35{
+	margin-top:35px;
+}
+.marTop40{
+	margin-top:40px;
+}
+.marTop60{
+	margin-top:40px;
+}
+.marTop95{
+	margin-top:95px;
+}
+.marBot75{
+	margin-bottom:75px;
+}
+.marBot100{
+	margin-bottom:100px;
+}
+.marBot25{
+	margin-bottom:25px;
+}
+.marLe10{
+	margin-left:10px;
+}
+.marLe15{
+	margin-left:15px;
+}
+.marRight15{
+	margin-right:15px;
+}
+.marRight125{
+	margin-right:90px;
+}
+.marLeRi200{
+	margin:0 100px;
+}
+
+
+/*padding*/
+.pad0{
+	padding:0;
+}
+.padTop98{
+	padding-top:98px;
+}
+.padTop165{
+	padding-top:165px;
+}
+.padBot80{
+	padding-bottom:80px;
+}
+.padBot52{
+	padding-bottom:52px;
+}
+
+/*background*/
+
+.bgBlack{
+	background:#000;
+}
+.bgGray{
+	background:#484848;
+}
+/*color*/
+.white{
+	color:#fff;
+}
+.brown{
+	color:#a3560a;
+}
+
+.posFixed{
+	position:fixed
+}
+
+.navCenter{
+	width:980px;
+	margin:auto;
+	padding:10px;
+}
+.fontPac {
+	font-family: 'Pacifico', cursive;
+}
+
+/*header*/
+
+#section_banner {
+  height: 479px;
+  width: 100%;
+  background-image:url(../images/bg_header_01.png);
+}
+
+#p_01 {
+  margin-top: 11%;
+}
+
+.mt17 {
+	margin-top:17px;
+}
+
+.mt100{
+	margin-top:100px;
+}

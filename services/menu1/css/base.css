@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*===============
+contain : construct page layout like page background, 
+header, footer, global navigation and so on =====*/
+
+/*-----  contents -------
+
+	1: Wrap Section
+	2: Header Area
+		: gnavArea
+	3: Main Area
+		: contentArea
+		: sideArea
+	4: Footer Area
+	  
+----------------------*/
+
+.col-md-4 ul{
+	height:900px;
+}
+.col-md-4 ul li{
+	height:auto;
+}
+.dropdown-menu a{
+	font-size:14px !important;
+}
+.clear {
+	clear: both;
+}
+.navbar-default .navbar-nav>li>a {
+  font-size:16px;
+}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*=========header=============================*/
+#home {
+	min-height: 480px;
+	background: url(../images/header_bg_001.jpg) no-repeat;
+}
+
+/*=========content=============================*/
+
+
+
+/*============ button ============= */
+.seeMore {
+	margin-left: 70px;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #754c24;
+	font-weight: bold;
+	border: 2px solid #754c24;
+	text-decoration: none;
+	border-radius: 0;
+}
+.seeMore:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #754c24;
+	transition: 0.5s;
+}

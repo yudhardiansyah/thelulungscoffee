@@ -1,57 +1,493 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Thelulungscoffee by yudhardiansyah</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Thelulungscoffee</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/yudhardiansyah/thelulungscoffee" class="btn">View on GitHub</a>
-      <a href="https://github.com/yudhardiansyah/thelulungscoffee/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/yudhardiansyah/thelulungscoffee/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lulungs Coffe</title>
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<meta name="description" content="the lulungs coffee is a template for restaurant or caffee">
+<meta name="keywords" content="caffee,coffee,template,portfolio">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/parts.css">
+<link rel="stylesheet" type="text/css" href="css/mediaQuery.css">
+<link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+</head>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+<body>
+<!---------------------------- HEADER -------------------------------->
+<div class="container-fluid pad0" id="section_header">
+	<div class="container-fluid pad0" id="ctnf_01">
+        <div class="container">
+            <div class="col-md-12">
+            <!-- NAV -->
+            <nav class="navbar navbar-fixed-top navbar-default white_color_1" id="sticky3" role="navigation">
+              <div class="navbar-header navbar_01" id="navbar_header_1">
+                <button type="button" id="button_01" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>    
+              </div>
+              <a class="navbar-brand" id="navbar_brand_3" href="#"><img src="images/logo_lulungs_03.png" class="img-responsive center-block"/></a>
+              <div class="navbar-collapse collapse font_18">
+                <ul class="nav navbar-nav navbar-left">
+                    <li id="li_home"><a href="#section_header">HOME</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="li_menu">MENU</a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="services/menu1/index.html">MENU 1</a></li>
+                        <li><a href="services/menu2/index.html">MENU 2</a></li>
+                      </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right margin-0">
+                  <li id="li_staff"><a href="services/staff1/index.html">STAFF</a></li>
+                  <li><a href="services/blog_list/index.html">BLOG</a></li>
+                </ul>
+              </div>
+            </nav>
+            <!-- /NAV -->
+            </div>
+        </div>
+   </div>
+        <div class="container">
+            <div class="col-md-8 col-sm-8 col-xs-12 col-md-offset-2 col-sm-offset-2 col-xs-offset-0 text-center white_color_1 relative">
+                <div class="abs_1">
+                    <p class="font_24">WELCOME TO</p>
+                    <hr class="hr_01">
+                    <p class="bold p_11">THE<BR>LULUNGS COFFEE</p>
+                    <hr class="hr_01">
+                    <p class="p_02 font_18 martop_01">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br>
+commodo ligula eget dolor. Aenean massa. Cum sociis natoque<br>
+penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br> Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+                </div>
+            </div>
+        </div>
+</div>
+<!---------------------------- /HEADER --------------------------------->
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+<!---------------------------- CONTENT --------------------------------->
+<div class="container-fluid padding50" id="section1">
+	<div class="container">
+    	<div class="row text-center">
+        	<h1 class="sectionTitle clrGold">RECOMMENDED MENU</h1>
+            <img src="images/img_05.png" alt="image">
+        </div>
+        <div class="row padding25">
+        <div class="row margin-0">
+        	<div class="col-sm-4 col-md-4">
+                <div class="thumbnail noBorder  productWrap">
+                   <div class="col-sm-12 col-md-12 overflow">
+                  		<img src="images/img_content_001.png" alt="images" class="responsive">
+                  </div>
+                  <div class="caption product col-sm-12 col-md-12">
+                  	<div class="row margin-0">
+                        <p class="productName">Dark Coffee</p>
+                        <p class="productPrice">$10</p>
+                    </div>
+                    <div class="row margin-0">
+						<p class="productDetail">Robusta / Cream / Sugar</p> 
+                        <p class="recomemdedItem">RECOMENDED</p>                   	
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-4">
+                <div class="thumbnail noBorder  productWrap">
+                  <div class="col-sm-12 col-md-12 overflow">
+                  		<img src="images/img_content_002.png" alt="images" class="responsive">
+                  </div>
+                  <div class="caption product col-sm-12 col-md-12">
+                  	<div class="row margin-0">
+                        <p class="productName">Dark Coffee</p>
+                        <p class="productPrice">$10</p>
+                    </div>
+                    <div class="row margin-0">
+						<p class="productDetail">Robusta / Cream / Sugar</p> 
+                        <p class="recomemdedItem">RECOMENDED</p>                   	
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-4">
+                <div class="thumbnail noBorder  productWrap">
+                  <div class="col-sm-12 col-md-12 overflow">
+                  		<img src="images/img_content_003.png" alt="images" class="responsive">
+                  </div>
+                  <div class="caption product col-sm-12 col-md-12">
+                  	<div class="row margin-0">
+                        <p class="productName">Dark Coffee</p>
+                        <p class="productPrice">$10</p>
+                    </div>
+                    <div class="row margin-0">
+						<p class="productDetail">Robusta / Cream / Sugar</p> 
+                        <p class="recomemdedItem">RECOMENDED</p>                   	
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="row margin-0">
+              <div class="col-sm-4 col-md-4">
+                <div class="thumbnail noBorder  productWrap">
+                  <div class="col-sm-12 col-md-12 overflow">
+                  		<img src="images/img_content_004.png" alt="images" class="responsive">
+                  </div>
+                  <div class="caption product col-sm-12 col-md-12">
+                  	<div class="row margin-0">
+                        <p class="productName">Dark Coffee</p>
+                        <p class="productPrice">$10</p>
+                    </div>
+                    <div class="row margin-0">
+						<p class="productDetail">Robusta / Cream / Sugar</p> 
+                        <p class="recomemdedItem">RECOMENDED</p>                   	
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-4">
+                <div class="thumbnail noBorder productWrap">
+                  <div class="col-sm-12 col-md-12 overflow">
+                  		<img src="images/img_content_005.png" alt="images" class="responsive">
+                  </div>
+                  <div class="caption product col-sm-12 col-md-12">
+                  	<div class="row margin-0">
+                        <p class="productName">Dark Coffee</p>
+                        <p class="productPrice">$10</p>
+                    </div>
+                    <div class="row margin-0">
+						<p class="productDetail">Robusta / Cream / Sugar</p> 
+                        <p class="recomemdedItem">RECOMENDED</p>                   	
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-4 ">
+                <div class="thumbnail noBorder productWrap">
+                  <div class="col-sm-12 col-md-12 overflow">
+                  		<img src="images/img_content_006.png" alt="images" class="responsive">
+                  </div>
+                  <div class="caption product col-sm-12 col-md-12">
+                  	<div class="row margin-0">
+                        <p class="productName">Dark Coffee</p>
+                        <p class="productPrice">$10</p>
+                    </div>
+                    <div class="row margin-0">
+						<p class="productDetail">Robusta / Cream / Sugar</p> 
+                        <p class="recomemdedItem">RECOMENDED</p>                   	
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+        </div>
+    </div>
+</div>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
+<div class="container-fluid padding50" id="section2">
+	<div class="container">
+    	<div class="row text-center">
+        	<h1 class="sectionTitle clrWhite">WHAT OUR CUSTOMER SAYS</h1>
+            <img src="images/img_17.png" alt="image">
+        </div>
+        <div id="myCarousel" class="carousel slide row" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators indicator">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+         	<div class="container text-center">
+            	<div class="col-lg-2"></div>
+                <div class="col-lg-8">
+            	<img src="images/img_content_011.png" alt="image" class="padding50">
+                <p class="costumer paddingBot-50">
+                	Lorem ipsum dolor sit amet, nostrud maiorum cu sit, aliquip nominavi tincidunt an vim. Ne denique accusamus vim, ad eam mollis fastidii temporibus, ea ius semper eirmod sanctus.
+                </p>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+    
+        <div class="item">
+          <div class="container text-center">
+            	<div class="col-lg-2"></div>
+                <div class="col-lg-8">
+            	<img src="images/img_content_011.png" alt="image" class="padding50">
+                <p class="costumer paddingBot-50">
+                	Lorem ipsum dolor sit amet, nostrud maiorum cu sit, aliquip nominavi tincidunt an vim. Ne denique accusamus vim, ad eam mollis fastidii temporibus, ea ius semper eirmod sanctus.
+                </p>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+    
+        <div class="item">
+         <div class="container text-center">
+            	<div class="col-lg-2"></div>
+                <div class="col-lg-8">
+            	<img src="images/img_content_011.png" alt="image" class="padding50">
+                <p class="costumer paddingBot-50">
+                	Lorem ipsum dolor sit amet, nostrud maiorum cu sit, aliquip nominavi tincidunt an vim. Ne denique accusamus vim, ad eam mollis fastidii temporibus, ea ius semper eirmod sanctus.
+                </p>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+    
+        <div class="item">
+          <div class="container text-center">
+            	<div class="col-lg-2"></div>
+                <div class="col-lg-8">
+            	<img src="images/img_content_011.png" alt="image" class="padding50">
+                <p class="costumer paddingBot-50">
+                	Lorem ipsum dolor sit amet, nostrud maiorum cu sit, aliquip nominavi tincidunt an vim. Ne denique accusamus vim, ad eam mollis fastidii temporibus, ea ius semper eirmod sanctus.
+                </p>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+      	</div>
+    </div>
+    </div>
+    </div>
+</div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<div class="container-fluid padding50" id="section3">
+	<div class="container">
+    	<div class="row text-center">
+        	<h1 class="sectionTitle clrGold">THE STAFF</h1>
+            <img src="images/img_05.png" alt="image">
+        </div>
+        <div class="row slider">
+        	<div class="col-lg-4 col-xs-1"></div>
+        	<div class="text-inner col-lg-8 col-sm-8">
+            	<div class="sliderOne sliderDetail activeTxt">
+                	<h3>CEO</h3>
+                    <h2>Filippo Inzaghi</h2>
+                    <p>	Maecenas vel tellus at magna sagittis venenatis. Integer pretium auctor magna, egestas justo gravida vitae. 
+                    	In lacinia auctor auctor. Donec finibus ultricies felis, ac hendrerit elit condimentum et.
+                    </p>
+                </div>
+                <div class="sliderTwo sliderDetail">
+                	<h3>Bartender</h3>
+                    <h2>Ricardo Kaka</h2>
+                    <p>	Maecenas vel tellus at magna sagittis venenatis. Integer pretium auctor magna, egestas justo gravida vitae. 
+                    	In lacinia auctor auctor. Donec finibus ultricies felis, ac hendrerit elit condimentum et.
+                    </p>
+                </div>
+                <div class="sliderThree sliderDetail">
+                	<h3>C0O</h3>
+                    <h2>Mauro Tassoti</h2>
+                    <p>	Maecenas vel tellus at magna sagittis venenatis. Integer pretium auctor magna, egestas justo gravida vitae. 
+                    	In lacinia auctor auctor. Donec finibus ultricies felis, ac hendrerit elit condimentum et.
+                    </p>
+                </div>
+                <div class="sliderFour sliderDetail">
+                	<h3>Security</h3>
+                    <h2>Gennaro Gattuso</h2>
+                    <p>	Maecenas vel tellus at magna sagittis venenatis. Integer pretium auctor magna, egestas justo gravida vitae. 
+                    	In lacinia auctor auctor. Donec finibus ultricies felis, ac hendrerit elit condimentum et.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xs-1"></div>
+            <div class="arrow-wrapper col-lg-8 col-sm-8 padding25">
+            	<span class="arrow-circle" id="leftArrow">
+                	<p class="arrow-left"> < </p>
+               	</span>
+                <span class="arrow-circle" id="rightArrow">
+                	<p class="arrow-right"> > </p>
+               	</span>
+            </div>
+            <div class="img-wrapper col-lg-8 col-sm-8">
+            	<div class="staffimg activeImg">
+                	<img src="images/img_content_007.png" alt="image" class="responsive">
+                </div>
+                <div class="staffimg">
+                	<img src="images/img_content_008.jpg" alt="image" class="responsive">
+                </div>
+                <div class="staffimg">
+                	<img src="images/img_content_009.jpg" alt="image" class="responsive">
+                </div>
+                <div class="staffimg">
+                	<img src="images/img_content_010.jpg" alt="image" class="responsive">
+                </div>
+            </div>
+       	</div>
+    </div>
+</div>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<div class="container-fluid padding150" id="section4">
+	<div class="container">
+        <div id="myCarousel2" class="carousel slide row" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators indicator2">
+        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel2" data-slide-to="1"></li>
+        <li data-target="#myCarousel2" data-slide-to="2"></li>
+        <li data-target="#myCarousel2" data-slide-to="3"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner text-center" role="listbox">
+        <div class="item active ">
+        	<div class="col-lg-2"></div>
+            <div class="col-lg-8 quoteWrap">
+                <p class="quoteContent">
+                    To me, the smell of fresh-made coffee is one of the greatest inventions.
+                </p>
+                <p class="quote">
+                    HUGH JACKMANN
+                </p>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    
+        <div class="item">
+			<div class="col-lg-2"></div>
+            <div class="col-lg-8 quoteWrap">
+                <p class="quoteContent">
+                    Kopi?? Hmmm.... MANTAAAPPPPP
+                </p>
+                <p class="quote">
+                    YUDHA ARDIANSYAH
+                </p>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    
+        <div class="item">
+         <div class="col-lg-2"></div>
+            <div class="col-lg-8 quoteWrap">
+                <p class="quoteContent">
+                    To me, the smell of fresh-made coffee is one of the greatest inventions.
+                </p>
+                <p class="quote">
+                    HUGH JACKMANN
+                </p>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    
+        <div class="item">
+          <div class="col-lg-2"></div>
+            <div class="col-lg-8 quoteWrap">
+                <p class="quoteContent">
+                    Kopi?? Hmmm.... MANTAAAPPPPP
+                </p>
+                <p class="quote">
+                    YUDHA ARDIANSYAH
+                </p>
+            </div>
+            <div class="col-lg-2"></div>
+      	</div>
+    </div>
+    </div>
+    </div>
+</div>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<div class="container-fluid padding50 sidepad" id="section5">
+	<div class="container">
+        <div class="row text-center">
+        	<h1 class="sectionTitle clrGold">OUR BLOG</h1>
+            <img src="images/img_05.png" alt="image">
+        </div>
+        <div class="row margin-0">
+        <div class="row padding25">
+        	<div class="col-md-4 col-sm-4 blogContent padding15">
+            	<div class="imgWrapper">
+                	<img src="images/img_content_012.png" alt="image" class="responsive">
+                </div>
+                <div class="ourBlog text-center">
+                	<div class="date text-center">
+                    	03 MAR
+                    </div>
+                	<h3>BIG SECRET OF COFFE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a sodales leo. Cras sed mattis tortor, nec ultrices nisl. Aenean […]</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 blogContent padding15">
+            	<div class="imgWrapper">
+                	<img src="images/img_content_012.png" alt="image" class="responsive">
+                </div>
+                <div class="ourBlog text-center">
+                	<div class="date text-center">
+                    	03 MAR
+                    </div>
+                	<h3>BIG SECRET OF COFFE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a sodales leo. Cras sed mattis tortor, nec ultrices nisl. Aenean […]</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 blogContent padding15">
+            	<div class="imgWrapper">
+                	<img src="images/img_content_012.png" alt="image" class="responsive">
+                </div>
+                <div class="ourBlog text-center">
+                	<div class="date text-center">
+                    	03 MAR
+                    </div>
+                	<h3>BIG SECRET OF COFFE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a sodales leo. Cras sed mattis tortor, nec ultrices nisl. Aenean […]</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            </div>
+            <div class="row" id="row_01">
+            	<a href="services/blog_list/index.html" class="seeMore">SEE MORE >></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------/CONTENT --------------------------------->
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/yudhardiansyah/thelulungscoffee">Thelulungscoffee</a> is maintained by <a href="https://github.com/yudhardiansyah">yudhardiansyah</a>.</span>
+<!----------------------------- FOOTER ------------------------------------>
+<div class="container-fluid" id="section_footer_1">
+	<div class="container white_color_1 text-center">
+    	<div class="col-md-4 col-sm-4 col-xs-12">
+        	<p class="font_24" id="p_03">The Lulungs Coffee</p>
+            <p>Welcome to a World Class Coffee Cafe Award<br>
+by Lorem Ipsum</p>
+        </div>
+    	<div class="col-md-4 col-sm-4 col-xs-12">
+        	<p class="font_18">OPEN HOURS</p>
+            <p class="p_01"><i class="fa fa-clock-o"></i> Monday – Friday 10 AM – 7 PM</p>
+            <p><i class="fa fa-phone"></i> +62 87890120</p>
+            <p><i class="fa fa-phone"></i> +62 87890120</p>
+        </div>
+    	<div class="col-md-4 col-sm-4 col-xs-12">
+        	<p class="font_18">ADDRESS</p>
+            <p class="p_01"><i class="fa fa-map-marker"></i> Jl. Budi Kemuliaan 1, Gambir<br>Jakarta Pusat – 10110 </p>
+            <a href="#" class="white_color_1"><i class="fa fa-facebook-square fa-3x i_1 i_2"></i></a><a href="#" class="white_color_1"><i class="fa fa-twitter-square fa-3x i_1 i_2"></i></a><a href="#" class="white_color_1"><i class="fa fa-instagram fa-3x i_1 i_2"></i></a><a href="#" class="white_color_1"><i class="fa fa-youtube-square fa-3x i_2"></i></a>
+        </div>
+    </div>
+</div>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+<div class="container-fluid" id="section_footer">
+	<div class="container" id="ct_01">
+            <div class="col-md-12 text-center">
+            	<p id="p_02" class="white_color_1">&copy; Copyright 2015 The Lulungs Coffe Theme By <span id="brown_1">Ferza Team</span> All Right Reserved.</p>
+            </div>
+    </div>
+</div>
+<!------------------------------- /FOOTER ------------------------------------>
 
-    </section>
-
-  
-  </body>
+</body>
 </html>

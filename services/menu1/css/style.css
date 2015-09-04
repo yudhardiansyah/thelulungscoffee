@@ -1,0 +1,58 @@
+.header {
+    height:1500px;
+   
+}
+
+#header-sroll {
+    position:fixed;
+    height: 100px;
+    left:0;
+    top:0;
+    float:left;
+    -ms-transition:     all 0.3s ease-out;
+    -moz-transition:    all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition:      all 0.3s ease-out;
+    transition:         all 0.3s ease-out;
+}
+#header-sroll ul li a {
+    font-size: 24px;
+    font-family: Arial;
+    text-align: center;
+	color:#BFBFBF;
+     -ms-transition:     all 0.3s ease-out;
+    -moz-transition:    all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition:      all 0.3s ease-out;
+    transition:         all 0.3s ease-out;
+}
+#header-sroll ul li a:after{
+	display:block;
+	position:absolute;
+	width:0;
+	left:0;
+	top:45px;
+	height:3px;
+	background:#bfbfbf;
+	transition:all 0.3s;
+ 	content: "";
+}
+#header-sroll ul li a:hover{
+	color:#bfbfbf;
+}
+#header-sroll ul li a:hover:after{
+	width:100%;	
+}
+#header-sroll.small {
+    height: 90px;
+    line-height: 35px;
+    background:#fff;
+}
+#header-sroll.small ul li a{
+    line-height: 35px;
+    font-size: 22px;
+	color:#333;
+}
+.dropdown-menu ul li a{
+	
+}

@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: Montserrat-Light;
+    src:url(../../../fonts/Montserrat-Light.otf);
+}
+
+/*=========home=============================*/
+#home {
+	min-height: 480px;
+	background: url(../images/header_bg_001.jpg) no-repeat;
+}
+
+/*=========content=============================*/
+.border-quote {
+	float: left;
+	width: 3px;
+	height: 120px;
+	background-color: #484848;
+}
+.quote {
+	height: 150px;
+	position: relative;
+	margin: 10px 0 0 20px;
+}
+.quote:before {
+	display: block;
+	position: absolute;
+	content: '';
+	background: url(../images/content_img_002.png) no-repeat;
+	width: 11px;
+	height: 8px;
+	left: -12px;
+	top: -5px;
+}
+.quote:after {
+	display: block;
+	position: absolute;
+	content: '';
+	background: url(../images/content_img_003.png) no-repeat;
+	width: 11px;
+	height: 8px;
+	right: 90px;
+	bottom: 49px;
+}
+.social {
+	margin-top: 22px;
+	margin-left: 11px;
+}
+.icon {
+	color: #754c24;
+}
+.icon:hover {
+	color: #000;
+	text-decoration: none;
+}
+/*============ button ============= */
+.border-frame {
+	border: 3px solid #754c24;
+}

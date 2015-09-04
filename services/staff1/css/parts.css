@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+@font-face {
+	src: url(../common/fonts/Montserrat-Light.otf);
+	font-family: "Montserrat Light";
+}
+@font-face {
+	src: url(../common/fonts/Montserrat-Bold.otf);
+	font-family: "Montserrat Bold";
+}
+/*---------------------------------
+text size
+---------------------------------*/
+.txt09 {
+	font-size: 9px;
+}
+.txt10 {
+	font-size: 10px;
+}
+.txt12 {
+	font-size: 12px;
+}
+.txt14 {
+	font-size: 14px;
+}
+.txt16 {
+	font-size: 16px;
+}
+.txt18 {
+	font-size: 18px;
+}
+.txt24 {
+	font-size: 24px;
+}
+.txt36 {
+	font-size: 36px;
+}
+.txt72 {
+	font-size: 72px;
+}
+
+.p0 {
+	padding: 0 !important;
+}
+
+/*---------------------------------
+text layout
+---------------------------------*/
+.txtC{text-align:center !important;}
+.txtL{text-align:left!important;}
+.txtR{text-align:right!important;}
+.floatL{float:left;}
+.floatR{float:right;}
+.floatN{float:none!important;}
+
+/*-------------------------------------------
+font color
+-------------------------------------------*/
+.txtWhite{
+	color: #FFFFFF;
+}
+.txtBrown {
+	color: #754c24;
+}
+.txtOrange {
+	color: #ed7500;
+}
+.txtGrey {
+	color: #8f8f8f;
+}
+
+/*-------------------------------------------
+font type
+-------------------------------------------*/
+.fontPac {
+	font-family: 'Pacifico', cursive;
+}
+.fontMonLight {
+	font-family: "Montserrat Light";
+}
+.fontMonBold {
+	font-family: "Montserrat Bold";
+}
+
+/*-------------------------------------------
+margin
+-------------------------------------------*/
+.m00 {
+	margin: 0!important;
+}
+.mt17 {
+	margin-top: 17px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.mt35 {
+	margin-top: 35px;
+}
+.mt40 {
+	margin-top: 40px;
+}
+.mt70 {
+	margin-top: 70px;
+}
+.mt80 {
+	margin-top: 80px;
+}
+.mt100 {
+	margin-top: 100px;
+}
+.mt200 {
+	margin-top: 200px;
+}
+.mb40 {
+	margin-bottom: 40px;
+}
+.ml70 {
+	margin-left: 70px;
+}
+
+
+
+/*---------------------------------
+text layout
+---------------------------------*/
+.p0 {
+	padding: 0 !important;
+}

@@ -1,0 +1,52 @@
+@charset "utf-8";
+/*===============
+css reset stylesheet is to reduce browser inconsistencies 
+in things like default line heights, margins and font sizes of headings, 
+and so on. =====*/
+
+html{
+	background:#ffffff;
+	}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fiel dset,input,textarea,p,blockquote,th,td{
+	margin:0;
+	padding:0;
+	}
+table{
+	border-collapse:separate;
+	border-spacing:0;
+	}
+fieldset,img{
+	border:0;
+	}
+img{
+	vertical-align:top;
+	}
+address,caption,em,strong,th{
+	font-style:normal;
+	font- weight:normal;
+	}
+ol,ul{
+	list-style:none;
+	}
+caption,th,td{
+	text-align:left;
+	}
+sup{
+	vertical-align:text-top;
+	}
+sub{
+	vertical-align:text-bottom;
+	}
+input,textarea,select{
+	font-family:inherit;
+	font-size:inherit;
+	font- weight:inherit;
+	}
+input,textarea,select{
+	*font-size:100%;
+	}
+a{color:#0A00FF;}
+a:link{text-decoration:none;}
+a:visited{text-decoration:underline;}
+a:hover{text-decoration:none;cursor:pointer!important;}
+a:active{text-decoration:underline;}

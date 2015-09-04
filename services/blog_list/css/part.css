@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content{
+	margin-top:62px;
+}
+
+#ctnf_02{
+	z-index:999;
+}
+
+/*============= BANNER ================*/
+#section_banner{
+	margin-top: -61px;
+	height:479px;
+	width:100%;
+	background-image:url(../images/main_visual_02.png);
+}
+
+#p_01{
+	margin-top:11%;
+}
+
+#row_01{
+	margin-bottom:30px;
+}
+.mt17 {
+	margin-top: 25px;
+}
+/*-------------------------------------------
+font type
+-------------------------------------------*/
+.fontPac {
+	font-family: 'Pacifico', cursive;
+}
+/*============== IMAGES =================*/
+#section_images{
+	padding:40px 0;
+}
+
+.img_01{
+	width:98%;
+	z-index:-999;
+}
+
+.col_02{
+	background-color:#f8f8f8;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.col_02:hover{
+	background-color:#754c24;
+}
+
+.col_02:hover .p_06{
+	color:#FFFFFF;
+}
+
+.col_02:hover #p_04{
+	color:#FFFFFF;
+}
+
+.col_02:hover .btn_01{
+	border:solid 1px #FFFFFF;
+	color:#FFFFFF;
+	background-color:#754c24;
+}
+
+
+.box_1{
+	background-color:#754c24;
+	width:15%;
+	border:solid 4px #FFFFFF;
+	margin-top:-20px;
+	z-index:0;
+	position:absolute;
+	left:42%;
+}
+
+.p_06{
+	margin-top:32px;
+	font-size:24px;
+	margin-bottom:6px;
+	color:#754c24;
+}
+
+.btn_01{
+	background-color:#FFFFFF;
+	border:solid 1px #000000;
+	border-radius:0;
+	margin-top:10px;
+}
+
+#ul_01{
+	margin-top:40px;
+}
+
+
+#ul_01 li{
+	border:solid 1px #754c24;
+	padding:2px 5px;
+	margin-right:5px;
+}
+
+#ul_01 li a{
+	color:#754c24;
+}
+
+#p_05{
+	font-size:18px;
+}
+
+@media screen and (max-width: 801px) {
+	#section_banner{
+		height:307px;
+	}
+	
+	.box_1 {
+	  background-color: #754c24;
+	  width: 22%;
+	  border: solid 4px #FFFFFF;
+	  margin-top: -20px;
+	  z-index: 0;
+	  position: absolute;
+	  left: 38%;
+	}
+	
+	#p_01 {
+	  margin-top: 11%;
+	}
+}
+
+
+@media screen and (max-width: 481px) {
+	.box_1{
+		z-index:0;
+	}
+	
+	#p_01{
+		margin-top: 28%;
+		font-size:50px;
+	}
+	
+	#p_05{
+		font-size:15px;
+	}
+}
+
+@media screen and (max-width: 481px) {
+	#p_01 {
+	  margin-top: 21%;
+	  font-size: 50px;
+	}
+}
